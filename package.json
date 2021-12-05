@@ -1,0 +1,17 @@
+{
+  "name": "arcane-bch-wallet",
+  "version": "2.0.2",
+  "description": "Bitcoin Cash wallet module, based on asychronous implementation of Mainnet-JS",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": ["BCH","wallet","private key","public key","cryptography","cryptocurrency","blockchain"],
+  "author": "Arcane Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "@psf/bch-js": "^4.20.10",
+    "axios": "^0.21.1",
+    "mainnet-js": "^0.3.41"
+  }
+}
